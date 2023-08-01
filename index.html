@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let numeroAleatorio=Math.round(Math.random() * 100);
+        let numerointroducido;
+        do{
+        numerointroducido=prompt("escribe un numero a ver si descubres cual es? ", "");
+            if(numerointroducido>numeroAleatorio){
+                alert("no,es un numero menor","")
+            
+            }else if(numerointroducido<numeroAleatorio) {
+                alert("no ,es numero mayor","")}
+            
+          } while(numerointroducido!=numeroAleatorio);
+
+
+            alert( "correcto!!! el numero es " + numeroAleatorio);
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
